@@ -19,7 +19,9 @@
       {% endcomment %}
 
       {% for post in site.posts reversed %}
-        <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
+        {% if node.sidebar %}
+          <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
+        {% endif %}
       {% endfor %}
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
