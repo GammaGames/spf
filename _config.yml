@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 
 # Permalinks
-permalink: /:title.html
+permalink: /:title
 
 # Setup
 title: SPF
