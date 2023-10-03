@@ -19,7 +19,7 @@
       {% endcomment %}
 
       {% for post in site.posts reversed %}
-        {% if node.sidebar %}
+        {% if post.sidebar %}
           <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}">{{ post.title }}</a>
         {% endif %}
       {% endfor %}
