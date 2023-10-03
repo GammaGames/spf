@@ -1,3 +1,11 @@
 #sidebar-links {
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sidebar-links a {
+    justify-content: space-evenly;
 }

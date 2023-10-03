@@ -10,7 +10,10 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <div id="sidebar-links">
+        <a href="{{ site.baseurl }}"><i class="fa-solid fa-house"></i></a>
+        <a href="{{ site.github.repo }}"><i class="fa-brands fa-github"></i></a>
+      </div>
 
       {% for post in site.posts reversed %}
         {% if post.sidebar %}
@@ -31,14 +34,7 @@
         {% endif %}
       {% endfor %}
 
-      <div id="sidebar-links">
-        <a><i class="fa-brands fa-github"></i></a>
-        <a><i class="fa-solid fa-house"></i></a>
-        <a><i class="fa-solid fa-circle-info"></i></a>
-      </div>
-      <span class="sidebar-nav-item">Currently <a href="{{ site.github.repo }}">v{{ site.version }}</a></span>
+      <span class="sidebar-nav-item">Currently <a >v{{ site.version }}</a></span>
     </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
