@@ -18,8 +18,5 @@ author:
   name: 'Gamma'
   url: https://github.com/gammagames
 
-# Custom vars
-version: 1.0.0
-
 github:
   repo: https://github.com/GammaGames/spf
