@@ -12,7 +12,7 @@ info: A small collection of example scripts showcasing different ways to
   use the Playdate''s sprite system.
 
 url: https://gammagames.github.io/spf/
-baseurl: /spf/
+baseurl: /spf
 
 author:
   name: 'Gamma'
