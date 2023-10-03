@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+description: Foo bar test 2
 ---
 
 
