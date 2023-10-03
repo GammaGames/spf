@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            SPF (for Playdate)
 tagline:          'Sprites: a Practical Foundation (AKA how to not get burned by sprites 🔥)'
-description:      'A small collection of example scripts showcasing different ways to use the Playdate's sprite system.'
+description:      'A small collection of example scripts showcasing different ways to use the Playdate\'s sprite system.'
 url:              https://gammagames.github.io/spf/
 baseurl:          /
 
