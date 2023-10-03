@@ -7,7 +7,8 @@ permalink: /:title.html
 
 # Setup
 title: SPF
-description: "Sprites: a Practical Foundation (AKA how to not get burned by sprites 🔥)"
+description: "Sprites: a Practical Foundation
+  (AKA how to not get burned by sprites 🔥)"
 info: A small collection of example scripts showcasing different ways to
   use the Playdate''s sprite system.
 
