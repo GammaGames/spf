@@ -1,23 +1,24 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            SPF (for Playdate)
-tagline:          'Sprites: a Practical Foundation (AKA how to not get burned by sprites 🔥)'
-description:      'A small collection of example scripts showcasing different ways to use the Playdate\'s sprite system.'
-url:              https://gammagames.github.io/spf/
-baseurl:          /
+title: SPF (for Playdate)
+tagline: Sprites: a Practical Foundation (AKA how to not get burned by sprites 🔥)
+description: A small collection of example scripts showcasing different ways to
+  use the Playdate''s sprite system.
+url: https://gammagames.github.io/spf/
+baseurl: /
 
 author:
-  name:           'Gamma'
-  url:            https://github.com/gammagames
+  name: 'Gamma'
+  url: https://github.com/gammagames
 
 # Custom vars
-version:          1.0.0
+version: 1.0.0
 
 github:
-  repo:           https://github.com/GammaGames/spf
+  repo: https://github.com/GammaGames/spf
