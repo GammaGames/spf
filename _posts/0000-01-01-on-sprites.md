@@ -17,14 +17,15 @@ They abstract the drawing and updating of game objects away so you can focus on 
 
 The sprite system has a few perks that make it a good choice for most games:
 * Their `:update` method is called automatically
-* They handle optimizing drawing only when the sprite changes
+* They handle optimizing drawing only when the sprite needs to redraw
 * You can set their Z-index to layer sprites at runtime
 * The SDK provides management functions like `performOnAllSprites()` and `removeAll()`
-* Sprites have a basic collision system built-in
-* Sprites have helper functions to make working with tilemap objects easier
+* They have a simple animation system built-in 
+* They have a basic collision system built-in
+* They have functions to integrate with tilemaps
 
 ### Cons
 
 The system doesn't come without its downsides, though:
 * There is performance overhead
-* f
+* WIP
