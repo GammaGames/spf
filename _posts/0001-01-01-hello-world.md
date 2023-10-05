@@ -5,10 +5,7 @@ sidebar: Quick Start
 description: My first sprite
 ---
 
-```lua
-local pd <const> = playdate
-local gfx <const> = pd.graphics
-```
+Let's get started, shall we?
 
 ## Using an Image
 

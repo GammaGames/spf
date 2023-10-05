@@ -2,5 +2,5 @@
 layout: post
 title: Handling Collisions
 sidebar: Collisions
-description: Some basic how-tos
+description: How to bump and slide
 ---
